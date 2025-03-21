@@ -1,29 +1,47 @@
-# DLXray: A Large-scale Dual-view Dataset for X-ray Prohibited Items Detection
+# LDXray: A Dataset for X-ray Prohibited Items Detection
 
-DLXray is a large-scale dual-view dataset collected from real security scenes in transportation hub. DLXray contains a wide range of prohibited items, categorized into 12 different classes. These items are illustrated in the following figure.
+## Introduction
+LDXray is a large-scale dual-view dataset collected from real security scenes in transportation hubs. It contains a wide range of prohibited items categorized into 12 different classes.
 
-![](/dataset_sample.jpg)
+![Sample image from LDXray dataset](dataset.png)
 
-# Results
+## Experimental Results
+We have extensively evaluated existing representative detection models and established baselines. Additionally, we have implemented several different strategies for utilizing side views, including:
 
-We have extensively evaluated existing representative detection models and established comprehensive baselines. Additionally, we have implemented several different strategies for utilizing side view, including data augmentation-based, contrastive learning-based, and feature fusion-based methods.
+### Baselines
+![Baseline results](baseline.png)
 
-- Baselines
-![](/baseline.png)
+### Data Augmentation
+![Data augmentation methods](sideview.png)
 
-- Data Augmentation
-![](/sideview.png)
+### Contrastive Learning
+![Contrastive learning techniques](contrastive.png)
 
-- Contrastive Learning
-![](/contrastive.png)
+### Feature Fusion
+![Feature fusion methods](fusion.png)
 
-- Feature Fusion
-![](/fusion.png)
+## Dataset and Code Download
+The dataset and code can be accessed from the following links:
 
-# Dataset and Code Download
+- **LDXray Dataset**: [Kaggle](https://www.kaggle.com/datasets/yuzheguocs/LDXray) | [BaiduNetDisk](https://pan.baidu.com/s/1YyUcBe7usxMUb1UyzTorgQ?pwd=m5pl)
+- **LDXray Benchmark**: [GitHub](https://github.com/SuZipei/LDXray-mmdetection)
 
-The dataset and code can be accessed from the following links.
+## Citation
+If you use LDXray in your research, please consider citing:
 
-[dataset](https://suzipei.github.io/DLXray/)
+```bibtex
+@article{LDXray2025,
+  author    = {Yuzhe Guo and others},
+  title     = {LDXray: A Dataset for X-ray Prohibited Items Detection},
+  journal   = {Journal Name},
+  year      = {2025},
+}
+```
 
-[code](https://suzipei.github.io/DLXray/)
+## Contact
+For any questions, please contact [Yuzhe Guo](https://github.com/suzipei).
+
+---
+
+This project is hosted on [GitHub Pages](https://pages.github.com/) and maintained by [Yuzhe Guo](https://github.com/suzipei).
+
