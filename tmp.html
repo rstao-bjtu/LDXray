@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DLXray Dataset</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #2a2f4a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        img {
+            width: 100%; /* Full width images with responsive design */
+            max-width: 600px; /* Maximum width */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 20px auto; /* Centering images */
+        }
+        section {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        h1 {
+            color: rgba(107, 104, 248, 0.715);
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #e7e7f7;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        ul li img {
+            margin-top: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            color: #6b68f8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <section>
+        <h1>DLXray: A Large-scale Dual-view Dataset for X-ray Prohibited Items Detection</h1>
+        <p>DLXray is a large-scale dual-view dataset collected from real security scenes in transportation hubs. DLXray contains a wide range of prohibited items, categorized into 12 different classes. These items are illustrated in the following figure.</p>
+        <img src="dataset_sample.jpg" alt="Sample image from DLXray dataset">
+
+        <h1>Results</h1>
+        <p>We have extensively evaluated existing representative detection models and established comprehensive baselines. Additionally, we have implemented several different strategies for utilizing side view, including data augmentation-based, contrastive learning-based, and feature fusion-based methods.</p>
+        
+        <ul>
+            <li>
+                <strong>Baselines</strong>
+                <img src="baseline.png" alt="Baseline results">
+            </li>
+            <li>
+                <strong>Data Augmentation</strong>
+                <img src="sideview.png" alt="Data augmentation methods">
+            </li>
+            <li>
+                <strong>Contrastive Learning</strong>
+                <img src="contrastive.png" alt="Contrastive learning techniques">
+            </li>
+            <li>
+                <strong>Feature Fusion</strong>
+                <img src="fusion.png" alt="Feature fusion methods">
+            </li>
+        </ul>
+
+        <h1>Dataset and Code Download</h1>
+        <p>The dataset and code can be accessed from the following links:</p>
+        <ul>
+            <li><a href="https://suzipei.github.io/DLXray/">dataset</a></li>
+            <li><a href="https://suzipei.github.io/DLXray/">code</a></li>
+        </ul>
+    </section>
+</body>
+</html>
